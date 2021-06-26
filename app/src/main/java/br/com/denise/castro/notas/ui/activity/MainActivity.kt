@@ -1,9 +1,11 @@
-package br.com.denise.castro.notas
+package br.com.denise.castro.notas.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import br.com.denise.castro.notas.NotasAdapter
+import br.com.denise.castro.notas.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

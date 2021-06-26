@@ -1,10 +1,10 @@
 package br.com.denise.castro.notas
 
 import android.view.LayoutInflater
-import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import br.com.denise.castro.notas.data.Nota
 import kotlinx.android.synthetic.main.item_nota.view.*
 
 class NotasViewHolder (val view: View): RecyclerView.ViewHolder (view) {
